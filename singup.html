@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="Navbar.css">
+    <style>
+
+
+#container>#upper{
+    display: flex;
+}
+        #container{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+/* border: 1px solid black; */
+height: 350px;
+margin-top: 50px;
+width: 300px;
+/* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; ; */
+}
+
+p{
+    margin-top: 50px;
+}
+
+#submit{
+    background-color: blue;
+    width: 80%;
+    border-radius: 20px;
+    color: aliceblue;
+}
+#form{
+    border-radius: 30px;
+}
+#form>#username{
+  border-radius: 20px;
+}
+#form>#lastname{
+  border-radius: 20px;
+}
+#form>#email{
+  border-radius: 20px;
+}
+#form>#password{
+  border-radius: 20px;
+}
+
+
+    </style>
+</head>
+<body>
+    <div id="navbar"></div>
+    <a href="login.html">Login<button id="add_product"></button></a>
+       
+    <div id="container">
+
+        <h1>REGISTER</h1>
+        <div id="upper">
+            <img src="https://www.headphonezone.in/apps/flits/api/1/19326/facebook/auth/login?token=a6db93201905bb1a89ec9f057da7a736"/>
+            <img src="https://www.headphonezone.in/apps/flits/api/1/19326/google/auth/login?token=a6db93201905bb1a89ec9f057da7a736">
+            <img src="https://www.headphonezone.in/apps/flits/api/1/19326/twitter/auth/login?token=a6db93201905bb1a89ec9f057da7a736">
+        </div>
+    
+    <h2><b>___LOGIN WITH SOCIAL OR___</b></h2>
+    <h4>Please fill in the fields below</h4>
+     
+        <form action="" id="form">
+        <input type="text" id="username" placeholder="Enter first name "><br><br>
+            <input type="text" id="lastname" placeholder="Enter last Name "><br><br>
+            <input type="email" id="email" placeholder="Enter email id here"><br><br>
+            <input type="password" id="password" placeholder="Enter  password here"><br><br>
+
+
+            <input type="submit" value="CREATE ACCOUNT" id="submit">
+            </form>
+
+            <p>Already have an account? Login</p>
+            
+
+    </div>
+
+</body>
+</html>
+<script src="./script/singup.js"></script>
+<script src="./script/index.js" type="module"></script>
+<script src="./script/Navbar.js"></script>

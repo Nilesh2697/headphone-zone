@@ -1,0 +1,14 @@
+{
+  "headphone":[
+          {
+            "name":"boat",
+            "price":"200",
+            "brand":"Galaxy"
+          },
+          {
+            "name":"noise",
+            "price":"300",
+            "brand":"sumsung"
+          }
+  ]
+}
