@@ -558,18 +558,11 @@ function navbar(){
 
         <div style="cursor: pointer;" onclick="popup()">Search</div>
 
-
-
-
-
         <div><a href="singup.html">Login</a></div>
         <div> <a href="cart.html"</a> Cart</div>
         <div><a href="checkout.html" target="blank">checkout</a></div>
     </div>  
-
 </div>
-
-    
     `
 }
 

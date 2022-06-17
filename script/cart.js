@@ -18,7 +18,7 @@ cartData.map(function(elem,index){
     var box = document.createElement("div")
 
     var img = document.createElement("img")
-    img.src=elem.image_url
+    img.src=elem.img
 
     var name =document.createElement("P")
     name.textContent=elem.name
@@ -34,7 +34,7 @@ cartData.map(function(elem,index){
 
     box.append(img,name,price,btn)
 
-    document.querySelector("#container").append(box)
+    document.querySelector("#cart").append(box)
 });
 function removeItem(elem,index){
     console.log(elem,index)

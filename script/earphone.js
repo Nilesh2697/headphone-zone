@@ -147,7 +147,7 @@ data.map(function(elem){
         addToCart(elem)
     })
     box.append(img,name,price,btn)
-    document.querySelector("#container").append(box)
+    document.querySelector("#earphone").append(box)
 });
 function addToCart(elem){
     console.log(elem);

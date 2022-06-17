@@ -1,9 +1,9 @@
-document.querySelector("#signupForm").addEventListener("submit",paymentDetails);
+document.getElementById("signup").addEventListener("submit",paymentDetails);
 
 function paymentDetails(event)
 {
    event.preventDefault();
-    var form=document.querySelector("#signupForm");
+    var form=document.getElementById("#signup");
     var name=form.name.value;
     var cardNumber=form.accNum.value;
     var number=form.phone.value;
